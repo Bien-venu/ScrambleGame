@@ -4,10 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Scramblegame</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <script src="./index.js"></script>
+    <div class="container">
+      <h2>Word Scramble</h2>
+      <div class="content">
+        <p class="word">enaxpnos</p>
+        <div class="details">
+          <p class="hint">Hint: <span>The process of increase of grow</span></p>
+          <p class="time">
+            Time left: <span><b>30</b>s</span>
+          </p>
+        </div>
+        <input type="text" placeholder="Enter a valid word" class="input">
+        <div class="buttons">
+          <button class="refresh-word">Refresh Word</button>
+          <button class="check-word">Check-Word</button>
+        </div>
+      </div>
+    </div>
+    <script src="./word.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
